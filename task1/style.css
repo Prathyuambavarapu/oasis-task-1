@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"poppins",
+    sans-serif;
+}
+
+body{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background:url(bg.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+header{
+    position:relative;
+    top:0;
+    width:100%;
+    padding:40px 400px 20px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    position:relative;
+    color:white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight:800;
+    letter-spacing:1px;
+
+}
+header .logo:hover{
+    background: black;
+}
+header .navigation a{
+    color:black;
+    background:none;
+    text-decoration: none;
+    font-weight:1000;
+    letter-spacing: 1px;
+    padding:1px 15px;
+    font-size: 20px;
+    transition: 2px;
+    transition-property: back;
+}
+header .navigation a:hover{
+    background:white;
+}
+section {
+    width:900px;
+    margin:0px 60px;
+}
+section h2  {
+    color:blue;
+    font-size:30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-bottom: 1px;
+
+}
+section h2 span{
+    color:green;
+    font-size: 30px;
+    font-weight: 700;
+}
+section p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 70px;
+
+}
+section .info{
+    color:white;
+    background: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding:10px 20px;
+    border-radius: 10px;
+
+}
+section .info:hover{
+    background: red;
+}
+footer{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+}
+footer a{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 30px;
+}
+footer a:hover {
+    transform: scale(2);
+}
